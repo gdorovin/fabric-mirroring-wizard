@@ -39,9 +39,9 @@ state file so the flow is **resumable**.
 
 Reference only when a phase needs a pattern not already covered here:
 
-- [COMMON-CORE.md](../../../skills-for-fabric/common/COMMON-CORE.md) — Fabric REST patterns, auth & token audiences, JMESPath item discovery.
-- [COMMON-CLI.md](../../../skills-for-fabric/common/COMMON-CLI.md) — `az rest` / `az login` recipes.
-- [ITEM-DEFINITIONS-CORE.md](../../../skills-for-fabric/common/ITEM-DEFINITIONS-CORE.md) — `MirroredDatabase` (`mirroring.json`) and semantic model (TMDL) definitions.
+- [COMMON-CORE.md](../../../../skills-for-fabric/common/COMMON-CORE.md) — Fabric REST patterns, auth & token audiences, JMESPath item discovery.
+- [COMMON-CLI.md](../../../../skills-for-fabric/common/COMMON-CLI.md) — `az rest` / `az login` recipes.
+- [ITEM-DEFINITIONS-CORE.md](../../../../skills-for-fabric/common/ITEM-DEFINITIONS-CORE.md) — `MirroredDatabase` (`mirroring.json`) and semantic model (TMDL) definitions.
 
 > If the `skills-for-fabric` repo is not present alongside this one, fetch the equivalent
 > patterns from the Fabric REST API docs: https://learn.microsoft.com/en-us/rest/api/fabric/articles/

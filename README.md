@@ -17,8 +17,8 @@ By the end of a session you have:
 
 ## How it works
 
-- **Orchestrator agent:** [`agents/FabricMirroringWizard.agent.md`](agents/FabricMirroringWizard.agent.md) — drives the question flow and delegates depth to the skill.
-- **Skill:** [`skills/e2e-mirroring/SKILL.md`](skills/e2e-mirroring/SKILL.md) — the 6-phase workflow, policy-adaptation logic, state-file schema, and documentation phase.
+- **Orchestrator agent:** [`.github/agents/FabricMirroringWizard.agent.md`](.github/agents/FabricMirroringWizard.agent.md) — drives the question flow and delegates depth to the skill.
+- **Skill:** [`.github/skills/e2e-mirroring/SKILL.md`](.github/skills/e2e-mirroring/SKILL.md) — the 6-phase workflow, policy-adaptation logic, state-file schema, and documentation phase.
 
 ## Design principles
 

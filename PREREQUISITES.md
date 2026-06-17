@@ -12,7 +12,7 @@ with a clear message if something is missing.
 |------|-----|-----------------|
 | **Azure CLI (`az`)** 2.60+ | All Azure + Fabric REST calls run through `az` / `az rest`. | `az version` → upgrade with `az upgrade` |
 | **`microsoft-fabric` CLI extension** (preview) | Capacity list/resume/create. | `az extension add --name microsoft-fabric --allow-preview true` |
-| **PowerShell 7+** (recommended) or Windows PowerShell 5.1 | Runs the snippets. 5.1 works but has the gotchas in [troubleshooting.md](skills/e2e-mirroring/resources/troubleshooting.md) (byte writes, `-UseBasicParsing`, 8.3 paths). | `pwsh --version` |
+| **PowerShell 7+** (recommended) or Windows PowerShell 5.1 | Runs the snippets. 5.1 works but has the gotchas in [troubleshooting.md](.github/skills/e2e-mirroring/resources/troubleshooting.md) (byte writes, `-UseBasicParsing`, 8.3 paths). | `pwsh --version` |
 | **.NET `System.Data.SqlClient`** | Used to grant the SP `db_owner` via an Entra token (no `sqlcmd` needed). | Ships with .NET / PowerShell on Windows. |
 | **Git** | Update-check pattern (`git fetch origin main`). | `git --version` |
 
@@ -88,7 +88,7 @@ The identity **running the wizard** (your signed-in `az login` user) needs:
 
 ## 6. Tenant policy readiness
 
-The wizard is **policy-adaptive** (see [policy-adaptation.md](skills/e2e-mirroring/resources/policy-adaptation.md)) and reacts to
+The wizard is **policy-adaptive** (see [policy-adaptation.md](.github/skills/e2e-mirroring/resources/policy-adaptation.md)) and reacts to
 whatever the target tenant enforces — it does **not** assume MCAPS. Be aware your tenant may:
 
 - **Deny SQL local auth** → the wizard switches to **Entra-only authentication** automatically.
